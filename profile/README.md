@@ -20,24 +20,15 @@ For our exam project, we were tasked with creating an API application to manage 
 ## Architecture Overview
 The application is built using a microservices architecture, divided into the following services:
 
-1. **Customer Microservice**: Handles customer profiles and personal data.
-2. **Cars Microservice**: Manages car inventory and availability.
-3. **Subscription Microservice**: Tracks subscriptions, rental plans, and billing.
-4. **Damage Report Microservice**: Records and processes damage reports.
+1. [**Customer Microservice**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Customer-microservice): Handles customer profiles and personal data.
+2. [**Cars Microservice**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Cars-microservice): Manages car inventory and availability.
+3. [**Subscription Microservice**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Subscription-microservice): Tracks subscriptions, rental plans.
+4. [**Damage Report Microservice**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Damage-report-microservice): Records and processes damage reports.
 
-All services are connected through an **API Gateway**, which routes requests to the appropriate microservices.
+All services are connected through an [**API Gateway**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/API-gateway), which routes requests to the appropriate microservices.
 
 ### Architecture Diagram
 ![Architecture Diagram](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/cab92c4659e9e3df3c68fee52ff1bae972b7b31f/Arkitekturdiagram%20v2.png)
-
-## Technologies Used
-- **Programming Language**: Python
-- **Framework**: Flask, Gunicorn, Bcrypt, Flasgger
-- **Database**: SQLite3
-- **Authentication**: Flask-Extended-JWT
-- **Containerization**: Docker
-- **Deployment**: Azure
-- **Version Control**: GitHub
 
 ## CI/CD Pipeline
 
@@ -57,6 +48,25 @@ As part of the project, we implemented a CI/CD pipeline to automate the deployme
 
 ### Pipeline Diagram
 ![CI/CD Pipeline](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/cab92c4659e9e3df3c68fee52ff1bae972b7b31f/Deployment%20process.png)
+
+## Project Management
+
+We followed the Scrum framework to manage the development process. This included:
+- **Sprint Planning**: Breaking down tasks into smaller deliverables.
+- **Daily Standups**: Coordinating team efforts and resolving blockers.
+- **Retrospectives**: Reviewing progress and identifying areas for improvement.
+
+Scrum allowed us to maintain focus on iterative development and ensure continuous delivery throughout the project.
+
+## Technologies Used
+- **Programming Language**: Python
+- **Framework**: Flask, Gunicorn, Bcrypt, Flasgger
+- **Database**: SQLite3
+- **Authentication**: Flask-Extended-JWT
+- **Containerization**: Docker
+- **Deployment**: Azure
+- **Version Control**: GitHub
+
 
 ## Contributors
 - [Lucas Jacobsen](https://github.com/LucasFJ-2023)
