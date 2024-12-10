@@ -28,7 +28,7 @@ The application is built using a microservices architecture, divided into the fo
 All services are connected through an **API Gateway**, which routes requests to the appropriate microservices.
 
 ### Architecture Diagram
-![Architecture Diagram](path/to/architecture_diagram.png)
+![Architecture Diagram](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/cab92c4659e9e3df3c68fee52ff1bae972b7b31f/Arkitekturdiagram%20v2.png)
 
 ## Technologies Used
 - **Programming Language**: Python
@@ -56,7 +56,7 @@ As part of the project, we implemented a CI/CD pipeline to automate the deployme
    - Azure pulls the Docker image from Docker Hub and deploys it to Azure services, making the application available for use.
 
 ### Pipeline Diagram
-![CI/CD Pipeline](path/to/ci-cd-diagram.png)
+![CI/CD Pipeline](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/cab92c4659e9e3df3c68fee52ff1bae972b7b31f/Deployment%20process.png)
 
 ## Contributors
 - [Lucas Jacobsen](https://github.com/LucasFJ-2023)
