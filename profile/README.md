@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/Python-3.9-blue) 
+![Flask](https://img.shields.io/badge/Flask-2.0-blue) 
+![Gunicorn](https://img.shields.io/badge/Gunicorn-Enabled-blue) 
+![Bcrypt](https://img.shields.io/badge/Bcrypt-Enabled-blue) 
+![Flasgger](https://img.shields.io/badge/Flasgger-Enabled-blue) 
+![SQLite3](https://img.shields.io/badge/SQLite3-v3.36.0-blue) 
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue) 
+![Azure](https://img.shields.io/badge/Azure-Enabled-blue)
 # Bilabonnement Microservices Project
 A scalable API application for car rentals using microservices architecture.
 
@@ -68,7 +76,11 @@ Scrum allowed us to maintain focus on iterative development and ensure continuou
 
 ## Technologies Used
 - **Programming Language**: Python
-- **Framework**: Flask, Gunicorn, Bcrypt, Flasgger
+- **Frameworks**
+   - Flask
+   - Gunicorn
+   - Bcrypt
+   - Flasgger
 - **Database**: SQLite3
 - **Authentication**: Flask-Extended-JWT
 - **Containerization**: Docker
