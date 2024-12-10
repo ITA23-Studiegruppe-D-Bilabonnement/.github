@@ -1,6 +1,14 @@
 # Bilabonnement Microservices Project
 A scalable API application for car rentals using microservices architecture.
 
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Architecture Overview](#architecture-overview)
+- [CI/CD Pipeline](#cicd-pipeline)
+- [Project Management](#project-management)
+- [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+
 ## About the Project
 Bilabonnement is a car rental company that allows customers to rent cars on a subscription basis. 
 For our exam project, we were tasked with creating an API application to manage the company's core functionalities using a microservices architecture.
