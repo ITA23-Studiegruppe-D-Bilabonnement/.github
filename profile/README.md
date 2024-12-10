@@ -92,6 +92,12 @@ Below are the burndown charts showing the progress of the project during the dev
 
 ![Sprint 2 Burndown](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/a6455d506332c9d50bfbf6e7464ba5cffc6868ce/Sprint%202%20(%20Burndown%20chart%20).png)
 
+
+### Velocity Overview
+- **Sprint 1 Velocity**: 188 story points  
+- **Sprint 2 Velocity**: 263 story points  
+- **Average Velocity**: 225.5 story points per sprint
+
 ## Technologies Used
 - **Programming Language**: Python
 - **Frameworks**
