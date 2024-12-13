@@ -40,23 +40,28 @@ The application is built using a microservices architecture, divided into the fo
    - [**Github Repository**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Customer-microservice)
    - [**Azure**](https://portal.azure.com/#@stud.kea.dk/resource/subscriptions/fa4e99f2-bbe7-4cca-b3ca-46e70febed28/resourceGroups/Eksamensprojekt-BIlabonnement/providers/Microsoft.Web/sites/Customer-microservice/appServices)
    - [**Hosted Microservice**](https://customer-microservice-b4dsccfkbffjh5cv.northeurope-01.azurewebsites.net)
+   - [**DockerHub Repository**](https://hub.docker.com/r/planteig/customer-microservice)
 2. Cars Microservice: Manages car inventory and availability.
    - [**Github Repository**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Cars-microservice)
    - [**Azure**](https://portal.azure.com/#@stud.kea.dk/resource/subscriptions/fa4e99f2-bbe7-4cca-b3ca-46e70febed28/resourceGroups/Eksamensprojekt-BIlabonnement/providers/Microsoft.Web/sites/Cars-microservice/appServices)
    - [**Hosted Microservice**](https://cars-microservice-a7g2hqakb2cjffef.northeurope-01.azurewebsites.net)
+   - [**DockerHub Repository**](https://hub.docker.com/r/planteig/cars-microservice)
 3. Subscription Microservice: Tracks subscriptions, rental plans.
    - [**Github Repository**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Subscription-microservice)
    - [**Azure**](https://portal.azure.com/#@stud.kea.dk/resource/subscriptions/fa4e99f2-bbe7-4cca-b3ca-46e70febed28/resourceGroups/Eksamensprojekt-BIlabonnement/providers/Microsoft.Web/sites/Subscription-microservice/appServices)
    - [**Hosted Microservice**](https://subscription-microservice-gxbuenczgcd5hfe4.northeurope-01.azurewebsites.net)
+   - [**DockerHub Repository**](https://hub.docker.com/r/planteig/subscription-microservice)
 4. Damage Report Microservice: Records and processes damage reports.
    - [**Github Repository**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/Damage-report-microservice)
    - [**Azure**](https://portal.azure.com/#@stud.kea.dk/resource/subscriptions/fa4e99f2-bbe7-4cca-b3ca-46e70febed28/resourceGroups/Eksamensprojekt-BIlabonnement/providers/Microsoft.Web/sites/damagereport-microservice/appServices)
    - [**Hosted Microservice**](https://damagereport-microservice-gpfchac2c4c9hzdc.northeurope-01.azurewebsites.net)
+   - [**DockerHub Repository**](https://hub.docker.com/r/planteig/damagereport-microservice)
 
 All services are connected through an API-Gateway, which routes requests to the appropriate microservices.
    - [**Github Repository**](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/API-gateway)
    - [**Azure**](https://portal.azure.com/#@stud.kea.dk/resource/subscriptions/fa4e99f2-bbe7-4cca-b3ca-46e70febed28/resourcegroups/Eksamensprojekt-BIlabonnement/providers/Microsoft.Web/sites/API-gatewayservice/appServices)
    - [**Hosted Gateway**](https://api-gatewayservice-cbc0dydhctg9g0hk.northeurope-01.azurewebsites.net)
+   - [**DockerHub Repository**](https://hub.docker.com/r/planteig/api-gatewayservice)
 
 ### Architecture Diagram
 ![Architecture Diagram](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/cab92c4659e9e3df3c68fee52ff1bae972b7b31f/Arkitekturdiagram%20v2.png)
