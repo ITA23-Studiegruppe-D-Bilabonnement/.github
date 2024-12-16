@@ -76,30 +76,6 @@ We followed the Scrum framework to manage the development process. This included
 
 Scrum allowed us to maintain focus on iterative development and ensure continuous delivery throughout the project.
 
-## Sprint Progress
-
-### Burndown Charts
-
-Below are the burndown charts showing the progress of the project during the development sprints.
-
-#### Sprint 1
-- **Goal**: 213 story points
-- **Achievement**: Reached 25 story points on the last day, still short of the goal.
-
-![Sprint 1 Burndown](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/a6455d506332c9d50bfbf6e7464ba5cffc6868ce/Sprint%201%20(%20Burndown%20chart%20).png)
-
-#### Sprint 2
-- **Goal**: 263 story points
-- **Achievement**: Fully achieved the goal (0 story points remaining).
-
-![Sprint 2 Burndown](https://github.com/ITA23-Studiegruppe-D-Bilabonnement/.github/blob/a6455d506332c9d50bfbf6e7464ba5cffc6868ce/Sprint%202%20(%20Burndown%20chart%20).png)
-
-
-### Velocity Overview
-- **Sprint 1 Velocity**: 188 story points  
-- **Sprint 2 Velocity**: 263 story points  
-- **Average Velocity**: 225.5 story points per sprint
-
 ## Technologies Used
 - **Programming Language**: Python
 - **Frameworks**
